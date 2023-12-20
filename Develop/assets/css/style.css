@@ -1,9 +1,11 @@
+/* The below sets the size of the boxes to include the padding and border in addition to the size of the actual content. This is applied to the entire page, since the Universal Selector is used.*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* The below code sets the body to have a background color of #d9dcd6, an off-white color. The body is where the content that will display on the page is housed.  */
 body {
     background-color: #d9dcd6;
 }
