@@ -1,30 +1,39 @@
+/* The Universal Selector allows us to set properties which will affect the whole page, as it acts on all of the elements. The box sizing property, with the value of border-box, allows us to include the padding and border in the total size of our elements. We set the padding to 0, so there will be no extra space between an element's content and border, by default. We set the margin to 0, so there will be no extra space around an element's border, by default. We also declared variables for 3 colors which will be used frequently in the page. */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    --light: #ffffff;
+    --medium-light: #d9dcd6;
+    --background: #2a607c;
 }
 
+/* The below code selects the body element and sets the background color of the body to a dark blue we had stored as a variable. */
 body {
-    background-color: #d9dcd6;
+    background-color: var(--medium-light);
 }
 
-.header {
+/* The header is a container for introductory information and / or navigational aids. The below code selects the header, adds a padding between the content and border of 20px, and sets a font family, dark blue background color, and a light font color which we'd previously stored as a variable. The font-family property instructs the browser to use Trebuchet MS if possible, and, if not, Lucida Sans Unicode, Lucida Grande, Lucida Sans, Arial, or sans-serif, in order of preference. */
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+    background-color: var(--background);
+    color: var(--light);
 }
 
-.header h1 {
+/* The h1 heading is the largest heading, used for the most central / important content. The below code selects the h1 within the header element, and sets the display to inline-block. The inline-block value allows our header to act like a block, while staying inline. */
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
-    color: #d9dcd6;
+/* The below code acts on the .seo class within the h1 of the header, and sets the color to a medium light color. */
+header h1 .seo {
+    color: var(--medium-light);
 }
 
-.header div {
+/* Here, we are setting properties for the nav element of the header: padding of 15px at the top; a 20px margin at the right; an alignment at the horizontal end of the page; a font-family; and a font size of 20px. */
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,24 +41,29 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+/* By default, an unordered list will be bulletted. The below code sets the list-style-type on our unordered list (within the nav element of the header) to none, removing the bullets. */
+header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+/* The below code sets the display property of the unordered list in our header to inline-block, so that the list elements don't appear on a new line for each element, and instead line up horizontally. The margin-left property allows us to set a left margin on each of the list elements. */
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* The below code selects all of the anchor elements responsible for hyperlinks, and sets the link text to a light color we had stored as a variable. Also, hyperlinks by default have an underlined appearance, and setting the text-decoration property to none removes the underline. */
 a {
-    color: #ffffff;
+    color: var(--light);
     text-decoration: none;
 }
 
+/* The below code sets the font size for all text within paragraph elements to 16px. */
 p {
     font-size: 16px;
 }
 
+/* The below acts on a hero class from our html which we'd created for our hero image, giving it a height of 800px, width of 100%, bottom margin of 25px, and a background image of a digital marketing meeting. The background size is set to cover, meaning the background image will fully cover the element it is housed in. It will be centered within its element because we set background-position to center. */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,23 +73,90 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* The below code set the width and left margin on our content class, and sets the display to inline-block. */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+/* The below code works on a class we had created called float-left. All elements with the float-left class will float to the left side of the page, and have a right margin of 25px. */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* The below code works on a class we had created called float-right. All elements with the float-right class will float to the right side of the page, and have a left margin of 25px. */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* The below code works on an element with the id attribute search-engine-optimization for the portion of our web page devoted to Search Engine Optimization. Here, we are setting the margin-bottom, padding, height, font family, background color, and font color for that id attribute. */
+#search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--background);
+    color: var(--light);
+}
+
+/* Here, we are setting the maximum height to 200px for the image within the elements with the search-engine-optimization id. So, the height of the image cannot be greater than 200px. */
+#search-engine-optimization img {
+    max-height: 200px;
+}
+
+/* The below code sets the bottom margin for our h2 with the search-engine-optimization id to be 20px, and the font size to be 36px. */
+#search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* The below code works on an element with the id attribute online-reputation-management for the portion of our web page devoted to Online Reputation Management. Here, we are setting the margin-bottom, padding, height, font family, background color, and font color for that id attribute. */
+#online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--background);
+    color: var(--light);
+}
+
+/* Here, we are setting the maximum height to 200px for the image within the elements with the online-reputation-management id. So, the height of the image cannot be greater than 200px. */
+#online-reputation-management img {
+    max-height: 200px;
+}
+
+/* The below code sets the bottom margin for our h2 with the search-engine-optimization id to be 20px, and the font size to be 36px. */
+#online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* The below code works on an element with the id attribute social-media-marketing for the portion of our web page devoted to Social Media Marketing. Here, we are setting the margin-bottom, padding, height, font family, background color, and font color for that id attribute. */
+#social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--background);
+    color: var(--light);
+}
+
+/* Here, we are setting the maximum height to 200px for the image within the elements with the social-media-marketing id. So, the height of the image cannot be greater than 200px. */
+#social-media-marketing img {
+    max-height: 200px;
+}
+
+/* The below code sets the bottom margin for our h2 with the social-media-marketing id to be 20px, and the font size to be 36px. */
+#social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* The below code selects a class we had created in our html called benefits-container, which houses the information on Lead Generation, Brand Awareness, and Cost Management that appears on the right side of our web page, since the float is set to right. The clear property decides the positioning of the next element, and setting it to "both" causes the next element to be floated below both left and right floated elements. */
+.benefits-container {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -83,118 +164,36 @@ p {
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: var(--background);
 }
 
-.benefit-lead {
+/* I created a class called benefits and applied it to our content on Lead Generation, Brand Awareness, and Cost Management. As the bottom margin and font color are the same for the Lead Generation, Brand Awareness, and Cost Management sections, we can use this class to quickly set and change these properties as needed. */
+.benefits {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: var(--light);
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* This code acts on the h3 within all content with the benefits class, and sets the bottom margin for these h3's to 10px, and the text alignment to center. */
+.benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* This code acts on the images with a class of "benefits," setting the display to block so that they take up their full line (the default display for images is inline). The margin for the images is set to 10px on the top and bottom and centered from left to right. A maximum width of 150px is set for these images. */
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.footer {
+/* This code sets the padding, font family, and text alignment for our footer element. I used an element selector instead of using a class and a class selector, as we only have one footer, and this feels a bit more streamlined. */
+footer {
     padding: 30px;
-    clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+/* This code sets the font size for the h2 within our footer to 20px. */
+footer h2 {
     font-size: 20px;
 }
