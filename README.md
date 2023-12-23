@@ -41,7 +41,7 @@ No installation is required to view this project.
 
 ## Usage and Features
 
-* In order to use this project, navigate to the website at [sara-hines.github.io/merketing-agency-website-refactored](sara-hines.github.io/merketing-agency-website-refactored 'GitHub Pages Link').
+* In order to use this project, navigate to the website at [sara-hines.github.io/marketing-agency-website-refactored](sara-hines.github.io/marketing-agency-website-refactored 'GitHub Pages Link').
 
 
 * When the user navigates to the web page, it will have the following appearance:
@@ -123,7 +123,7 @@ If the images are unable to be accessed for some reason, the web page will displ
 
 I reached out to the TA of my Full Stack Coding Bootcamp at University of Denver, who provided helpful advice on starting the refactoring project with the HTML rather than the CSS, and had the idea to use id attributes for some of the unique content. I appreciate his help starting me on the right track!
 
-In these first weeks of my bootcamp, I have been learning a large volume of introductory material from [MDN Web Docs,](https://developer.mozilla.org/en-US/), [W3Schools,](https://www.w3schools.com), and materials provided as part of the bootcamp. I used these sources to reference concepts and to troubleshoot while creating this project, but my words and work are my own. 
+In these first weeks of my bootcamp, I have been learning a large volume of introductory material from [MDN Web Docs,](https://developer.mozilla.org/en-US/) [W3Schools,](https://www.w3schools.com) and materials provided as part of the bootcamp. I used these sources to reference concepts and to troubleshoot while creating this project, but my words and work are my own. 
 
 ## License
 
