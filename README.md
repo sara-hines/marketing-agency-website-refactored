@@ -41,7 +41,7 @@ No installation is required to view this project.
 
 ## Usage and Features
 
-* In order to use this project, navigate to the website at [sara-hines.github.io/marketing-agency-website-refactored](sara-hines.github.io/marketing-agency-website-refactored 'GitHub Pages Link').
+* In order to use this project, navigate to the website at [https://sara-hines.github.io/marketing-agency-website-refactored/](https://sara-hines.github.io/marketing-agency-website-refactored/ 'GitHub Pages Link').
 
 
 * When the user navigates to the web page, it will have the following appearance:
