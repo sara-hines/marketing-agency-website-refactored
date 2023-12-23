@@ -71,33 +71,33 @@ No installation is required to view this project.
   * See the screenshots below to view the alignment and positioning of the boxes, headings, text, and images.
 
 <img width="960" alt="screenshot-1" src="https://github.com/sara-hines/marketing-agency-website-refactored/assets/90005274/5a3b53e8-eb10-462e-be76-25c7d654ecc6">
-![alt text](assets/images/screenshot-1.png)
 
-![alt text](assets/images/screenshot-2.png)
+<img width="960" alt="screenshot-2" src="https://github.com/sara-hines/marketing-agency-website-refactored/assets/90005274/e1685304-2a9c-4851-92b4-31c7a76fceb8">
 
-![alt text](assets/images/screenshot-3.png)
+<img width="960" alt="screenshot-3" src="https://github.com/sara-hines/marketing-agency-website-refactored/assets/90005274/a8c0131d-963f-40ec-bc3d-fec3714831d1">
 
 ### The Funtionality of the Hyperlinked List Items in the Navigation Bar
 
 When a user clicks on "Search Engine Optimization" in the navigation bar, the page will jump to the section on Search Engine Optimization, as seen in the below screenshot. 
 
-![alt text](assets/images/screenshot-nav-to-seo.png)
+<img width="960" alt="screenshot-nav-to-seo" src="https://github.com/sara-hines/marketing-agency-website-refactored/assets/90005274/7f3471ef-3032-4dc1-9ec4-412c67ec1337">
 
 When a user clicks on "Online Reputation Management" in the navigation bar, the page will jump to the section on Online Reputation Management, as seen in the below screenshot. 
 
-![alt text](assets/images/screenshot-nav-to-orm.png)
+<img width="960" alt="screenshot-nav-to-orm" src="https://github.com/sara-hines/marketing-agency-website-refactored/assets/90005274/9efb384d-f8a7-450d-a789-567b59854e2a">
 
 When a user clicks on "Social Media Marketing" in the navigation bar, the page will jump to the section on Social Media Marketing, as seen in the below screenshot. (This may appear a bit different from device to device and browser to browser.)
 
-![alt text](assets/images/screenshot-nav-to-smm.png)
+<img width="960" alt="screenshot-nav-to-smm" src="https://github.com/sara-hines/marketing-agency-website-refactored/assets/90005274/122241d2-5384-4c71-8c08-08ae76c3dd32">
+
 
 ### The Functionality of the Image Alt Attributes
 
 If the images are unable to be accessed for some reason, the web page will display text descriptions of the images instead, as seen in the below screenshots.
 
-![alt text](assets/images/screenshot-img-alt-1.png)
+<img width="960" alt="screenshot-img-alt-1" src="https://github.com/sara-hines/marketing-agency-website-refactored/assets/90005274/a3eb4578-54e4-4ca5-b5f2-f437c1c92867">
 
-![alt text](assets/images/screenshot-img-alt-2.png)
+<img width="960" alt="screenshot-img-alt-2" src="https://github.com/sara-hines/marketing-agency-website-refactored/assets/90005274/d1b2df12-a9f7-4745-be20-8570cba217f0">
 
 ## Credits 
 
