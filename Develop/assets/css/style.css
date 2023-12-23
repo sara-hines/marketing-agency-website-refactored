@@ -41,7 +41,7 @@ header nav {
     font-size: 20px;
 }
 
-/* By default, an unordered list will be bulletted. The below code sets the list-style-type on our unordered list (within the nav element of the header) to none, removing the bullets. */
+/* By default, an unordered list will be bulleted. The below code sets the list-style-type on our unordered list (within the nav element of the header) to none, removing the bullets. */
 header nav ul {
     list-style-type: none;
 }
