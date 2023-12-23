@@ -70,7 +70,7 @@ No installation is required to view this project.
 
   * See the screenshots below to view the alignment and positioning of the boxes, headings, text, and images.
 
-
+<img width="960" alt="screenshot-1" src="https://github.com/sara-hines/marketing-agency-website-refactored/assets/90005274/5a3b53e8-eb10-462e-be76-25c7d654ecc6">
 ![alt text](assets/images/screenshot-1.png)
 
 ![alt text](assets/images/screenshot-2.png)
